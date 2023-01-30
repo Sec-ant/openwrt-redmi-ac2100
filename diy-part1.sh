@@ -11,10 +11,8 @@
 #
 
 # Uncomment feed sources
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add feed sources
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore' >> feeds.conf.default
-echo 'src-git wrtbwmon https://github.com/brvphoenix/luci-app-wrtbwmon' >> feeds.conf.default
+# echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
+# echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
