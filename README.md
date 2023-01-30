@@ -1,3 +1,11 @@
+# 红米 AC2100 OpenWrt 固件
+
+配置项见：https://raw.githubusercontent.com/Sec-ant/openwrt-redmi-ac2100/main/.config （`make menuconfig` 后再使用 `./scripts/diffconfig.sh` 生成）
+
+Breed：https://blog.hackpascal.net/2022/07/2022-07-24-breed-update/
+
+刷机方式参见：https://www.right.com.cn/forum/thread-4135491-1-1.html
+
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
